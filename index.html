@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO App</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+
+<body onload="fetchBookmarks()" style="background-color:rgb(102, 220, 238)">
+
+
+<form   id="myForm">
+    
+  <div class="row">
+    
+    <div class="col-50">
+      <h2 style="background-color: rgba(0, 128, 49, 0.358);">ToDo List App  </h2>
+  <label for="fname">Task name</label>
+  <input type="text" id="siteName" name="ad_fname" size="15" value=""><br>
+
+  <label for="lname">Task Discription</label>
+  <input type="text" id="siteUrl" name="ad_lname" value=""><br>
+ 
+  <!-- <label for="country">Time Frame </label>
+    <select id="groupe" name="ad_country">
+      <option value="business">Morning</option>
+      <option value="entertainment">afternoon</option>
+      <option value="course">evening</option>
+
+    </select> -->
+  </div>
+  <input type="submit" value="Submit" id="submit">
+
+    
+ 
+  <div class="bookmarksResults" id="bookmarksResults">
+</div>
+</form><br> 
+
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
